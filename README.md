@@ -1,7 +1,8 @@
 # AtlasC2-docked  
 A containerization/portability project.  
 Grimmie made AtlasC2 Framework, for a pure windows environment thus far.  
-I ported it to Linux (server and client, we want it on kali...)!  
+I ported it to Linux, server and client, and dockerized it, since we want it on kali!  
+Multiple dotnet SDKs can be less fun, so Docker seemed like a great solution.  
 
 The implant needs to be compiled on windows for now, change the IP to your docker  
 host machine. Change the port number to match your created listener port.  
