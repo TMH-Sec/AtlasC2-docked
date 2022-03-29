@@ -1,0 +1,4 @@
+Client/Client/*
+Server/APIModels/*
+Server/TeamServer/*
+.git/config
