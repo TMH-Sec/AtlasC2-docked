@@ -1,13 +1,13 @@
 # AtlasC2-docked  
 A containerization/portability project.  
-Grimmie made AtlasC2 Framework, for a pure windows environment thus far.  
-I ported it to Linux, server and client, and dockerized it, since we want it on kali!  
+Grimmie made AtlasC2 Framework, for a pure Windows environment thus far.  
+I ported it to Linux, server and client, and Dockerized it, since we want it on Kali!  
 Multiple dotnet SDKs can be less fun, so Docker seemed like a great solution.  
 
 The implant needs to be compiled on windows for now, change the IP to your docker  
 host machine. Change the port number to match your created listener port.  
 
-We assume you have docker-ce installed. [Docker Install Kali](https://www.kali.org/docs/containers/installing-docker-on-kali/)  
+We assume you have Docker-CE installed. [Docker Install Kali](https://www.kali.org/docs/containers/installing-docker-on-kali/)  
 We assume you are member of the docker group (or root).  
 
 Easy install in home:  
