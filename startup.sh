@@ -29,6 +29,5 @@ for port in ${ports[@]}
     portstring="$portstring -p $port:$port "
   done
 final=$(echo "${portstring}" | awk '{gsub(/^ +| +$/,"")} {print $0}')
-echo $final
 docker run -d $final --name=atlasserver --network=atlas-net --hostname=atlasserver --ip=10.99.99.33 themadhuman/atlasserver:v0.7
 docker run -it --name=atlasclient --network=atlas-net --hostname=atlasclient --ip=10.99.99.34 --add-host=atlasserver:10.99.99.33 themadhuman/atlasclient:v0.2
