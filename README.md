@@ -1,6 +1,6 @@
 # AtlasC2-docked  
 A containerization/portability project.  
-Grimmie made AtlasC2 Framework, for a pure Windows environment thus far.  
+Grimmie made [AtlasC2 Framework](https://github.com/Gr1mmie/AtlasC2), for a pure Windows environment thus far.  
 I ported it to Linux, server and client, and Dockerized it, since we want it on Kali!  
 Multiple dotnet SDKs can be less fun, so Docker seemed like a great solution.  
 
